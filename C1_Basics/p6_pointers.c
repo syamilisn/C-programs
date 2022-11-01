@@ -41,4 +41,7 @@ void main(){
     for(int i =0; i<5 ;i++){
         printf("%d ",*ptr_d++);
     }
+    for(int i =0; i<5 ;i++){
+        printf("%d ",*(ptr_d +i));
+    }
 }
