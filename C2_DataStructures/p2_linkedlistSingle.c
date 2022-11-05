@@ -48,7 +48,7 @@ void display(node *head){
     node *temp;
     temp = head;
     if(temp == NULL){
-        printf("\nThe list id empty\n");
+        printf("\nThe list is empty\n");
         return;
     }
     while(temp!=NULL){
