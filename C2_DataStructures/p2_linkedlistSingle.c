@@ -43,6 +43,21 @@ node *get_node(){
     temp->next=NULL;
     return temp;
 }
+
+void display(node *head){
+    node *temp;
+    temp = head;
+    if(temp == NULL){
+        printf("\nThe list id empty\n");
+        return;
+    }
+    while(temp!=NULL){
+        printf("%d->", temp->data);
+        temp = temp->next;
+    }
+    printf("NULL");
+}
 void main(){
     node* n1 = create();
+    display(n1);
 }
