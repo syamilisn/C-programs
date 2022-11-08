@@ -42,7 +42,7 @@ void print_list(node* n){
 }
 void main(){
     int n, i;
-    user choice;
+    //user choice;
     //node* head = (node*)malloc(sizeof(node));
     node* head = NULL;
     printf("Enter n: ");
